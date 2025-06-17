@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Card from "../components/Card";
 import CardContent from "../components/CardContent";
 import Modal from "../components/Modal";
-import { Clock, Utensils, History, Settings, Trash2, Loader } from "lucide-react";
+import { Clock, Utensils, History, Trash2, Loader } from "lucide-react";
 
 export default function PetFeederApp() {
   const [amountPerCent, setAmountPerCent] = useState(100);
@@ -141,7 +141,7 @@ export default function PetFeederApp() {
 
         <div className="flex space-x-4 mt-6">
           <Button variant="ghost" onClick={() => setModalType("history")}>
-            <History size={24} /> {/* abrir um modal com os registro dos horários que a ração foi liberada (se vira pra fazer um registro) */}
+            <History size={24} />
           </Button>
         </div>
 

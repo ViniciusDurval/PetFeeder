@@ -51,7 +51,6 @@ const Login = () => {
               onChange={(e) => setInputName(e.target.value)}
             />
             {errors.userName && <span className="text-red-500 text-sm">{errors.userName}</span>}
-            {/* esses erros tão mais pra registro doq pra login, mas fds */}
 
             <input
               className="border-b-2 bg-transparent py-2 px-1 text-base text-gray-800 dark:text-white focus:outline-none focus:border-indigo-500"
